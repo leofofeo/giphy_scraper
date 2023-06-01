@@ -24,6 +24,8 @@ defmodule GiphyScraper.MixProject do
     [
       {:finch, "~> 0.16"},
       {:jason, "~> 1.3"},
+      {:json, "~> 1.4"},
+      {:httpoison, "~> 2.0"}
     ]
   end
 end

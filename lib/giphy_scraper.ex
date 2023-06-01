@@ -1,18 +1,4 @@
 defmodule GiphyScraper do
-  @moduledoc """
-  Documentation for `GiphyScraper`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> GiphyScraper.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  alias GiphyScraper.Fetcher
+  defdelegate search(query), to: Fetcher, as: :get_gifs_for_query
 end
