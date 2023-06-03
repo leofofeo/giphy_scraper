@@ -11,8 +11,7 @@
 
 ### From the command-line
 3. Run `mix escript.build`
-4. Run the executable (likely `./giphy_scraper`) with either the `-q` or `--query` flags followed by your search term
-  - `./giphy_scraper -q patriots`
+4. Run the executable (likely `./giphy_scraper`) with either the `-q` or `--query` flags followed by your search term (e.g., `./giphy_scraper -q patriots`)
 
 
 ## Installation
