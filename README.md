@@ -1,10 +1,18 @@
 # GiphyScraper
 
 ## Running this project:
+
 1. Export your Giphy API key as an environment variable with the name of `GIPHY_API_KEY`
 2. Run `mix deps.get` to obtain any necessary dependencies
+
+### From `iex`
 3. Run `iex` using `mix`
 4. Run `GiphyScraper.search("<your term here>")`, with whatever term you prefer
+
+### From the command-line
+3. Run `mix escript.build`
+4. Run the executable (likely `./giphy_scraper`) with either the `-q` or `--query` flags followed by your search term
+  - `./giphy_scraper -q patriots`
 
 
 ## Installation

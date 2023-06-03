@@ -26,3 +26,4 @@ giphy_scraper-*.tar
 /tmp/
 
 .env
+./giphy_scraper
